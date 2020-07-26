@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <style>
+        body
+        {
+            background-image: url(./user.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        .sec{
+            padding: 5px;
+            border-top: none;
+            border-bottom: none;
+            border-left: none;
+            border-right: none;
+        }
+    </style>
+        
+        
+        
+</head>
+    
+<body >
+    <form  style="margin-left: 400px;" action="welcome.php"  method="POST"><br>
+        <h2 style="color:cyan;  margin-left:50;"> USER LOGIN</h2><br>
+        <div>
+            <label for="name" style="margin-right: 13%; margin-bottom: -20px;"><b> <i class="fa fa-user-circle" aria-hidden="true"></i>Username</b></label><br>
+            <input type="text" class="sec" size="30%" style="margin-top: 10px;" placeholder="name" required>
+        </div><br>
+        <div>
+            <label for="email" style="margin-right: 15%; margin-bottom: 40px;""><b><i class="fa fa-envelope" aria-hidden="true"></i>
+                E-mail</b></label><br>
+            <input type="text" class="sec"  style="margin-top: 10px" placeholder="E-mail" size=30% required>
+        </div><br>
+        <div>
+            <label for="pwd" style="margin-right: 14%; margin-bottom: 30px;""><b><i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                Password</b></label><br>
+            <input type="password" class="sec"      style="margin-top: 10px" maxlength="5"  size="30%"placeholder="password"required>
+        </div><br>
+        <div>
+            <input type="checkbox">
+            <label for="sec"><b>REMEMBER ME</b></label>
+           <div><br>
+
+               <button type="submit"  class="sec"  style="background-color: darkmagenta; width: 100px; margin-left: 150px;"><b>LOGIN</b></button>
+           </div>
+        </div>
+    </form>
+
+</body>
+
+
+</html>
