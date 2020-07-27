@@ -1,0 +1,66 @@
+body
+{
+	background-image: url(image/desert.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+p{
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 50px 0px;
+	text-indent: 2px;
+	text-align: left;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+
+	
+}
+#nav{
+	padding-top: 1px;
+}
+div ul li {
+
+	list-style: none;
+	float: right;
+	margin-right:20px;
+	padding-top: 50px;
+	padding-left: 80px;
+
+}
+div ul li a{
+	text-decoration: none;
+	color: white;
+}
+div ul li a:hover{
+	color: #F30AD4;
+}
+.fa {
+	color:orange;
+	opacity: 0.9;
+	padding-right: 5px;
+	cursor: pointer;
+	
+
+}
+h3
+{
+	text-align: center;
+	text-decoration: underline;
+	font-size: 30px;
+}
+.design{
+	font-size: 15px;
+	text-indent: 300px;
+	word-spacing: 2px;
+	line-height: 30px;
+}
+.list{
+	list-style:disc;
+	text-indent: 500px;
+	font-size: 25px;
+	font-style: italic;
+	line-height: 30px;
+
+
+}
