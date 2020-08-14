@@ -1,0 +1,98 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	background-color: black;
+	height: 70px;
+	opacity: 0.5;
+	
+
+
+}
+h3{
+	color: white;
+	float: left;
+	padding: 20px 0px;
+	font-style: italic;
+
+}
+h3:hover{
+	color: green;
+}
+.navbar
+{
+	float: right;
+
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px 40px;
+
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+ul .active a{
+	border: 1px solid white;
+	padding: 0px 5px;
+}
+ul  a:hover{
+	border: 1px solid white;
+}
+ h1{
+	color: cyan;
+	width: 50px;
+	padding-left: 40px;
+	padding-top: 150px;
+	text-decoration: underline;
+	float: left;
+	cursor: pointer;
+}
+.col-2{
+	
+	padding-left: 600px;
+	padding-top: 20px;
+	
+}
+.card{
+	width: 350px;
+	height: 150px;
+	margin-left: 10px;
+	float: center;
+	background-color:lightblue;
+	border-radius: 10px;
+	box-sizing: border-box;
+	cursor: pointer;
+	transition: 0.5s;
+
+
+
+}
+.card-2{
+	margin-left: 200px;
+
+}
+.card:hover{
+	transform: translateX(-10px);
+}
+h2{
+	text-align: center;
+	text-decoration:underline;
+	padding-top: 30px;
+
+}
+p{
+	text-align: left;
+	padding-left: 40px;
+	line-height: 20px;
+}
+b{
+margin-left: 100px;
+}
+.card-2:hover{
+	transform: translateY(-10px);
+}
